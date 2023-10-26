@@ -1,0 +1,154 @@
+
+  body {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    animation: rainbow 2s ease-in-out infinite;
+  }
+  footer{
+    background-color: aliceblue;
+  }
+  
+  @keyframes rainbow {
+    0% {
+      background-color: coral;
+    }
+    25% {
+      background-color: #cc00ff;
+    }
+    50% {
+      background-color: #ffa200;
+    }
+    75% {
+      background-color: #1eff00;
+    }
+    100% {
+      background-color: #ff0000;
+    }
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-style:italic;
+    color: rgb(80, 176, 255);
+    background-color: aqua;
+    align-content: center;
+    padding: left 50px;
+    animation: bounce 2s ease-in-out infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+    
+    
+              
+
+  
+  
+  
+  footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
+  
+  .h {
+    background-image: url(./images/apps.jpg);
+  
+  }
+  
+  .o {
+  background-image: url(./images/music-1.png);
+  }
+  
+  .n {
+    background-image: url(./images/music-1.png);
+  
+  }
+  
+  .e {
+    background-image: url(./images/music-1.png);
+  
+  }
+  
+  .y {
+    background-image: url(./images/gifts.png);
+  
+  }
+  
+  .b {
+    background-image: url(./images/music-1.png);
+  
+  }
+  
+  .i {
+    background-image: url(./images/music-1.png);
+  
+  }
+ .r{
+    background-image:url(./images/music-1.png) ;
+ }
+ .d {
+    background-image: url(./images/gifts.png);
+  
+  }
+  .set {
+    margin: 15% auto;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .bday {
+    animation: pulse 1s ease-in-out infinite;
+    outline: none;
+    border: 8px solid #404B69;
+    border-color: black;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(227, 240, 228);
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
